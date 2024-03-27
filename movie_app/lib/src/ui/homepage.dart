@@ -40,6 +40,7 @@ class _HomePageState extends State<HomePage> {
           backgroundColor: Colors.transparent,
           elevation: 0,
         ),
+        drawer: Drawer(),
         body: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
           child: Padding(
